@@ -11,7 +11,7 @@ NuGet Packages :
 - Microsoft.EntityFrameworkCore (v5.0.1) 
 - Microsoft.EntityFrameworkCore.SqlServer (v5.0.1)   
 - Microsoft.EntityFrameworkCore.Tools (v5.0.1)  
-- Ocelot (v13.8.5)   
+- Ocelot (v13.8.5)  [For the APIGateway] 
 
 For running the service, at first made changes in the connection string in DatabaseContext.cs file which is inside the Database folder.   
 - If you use Windows authentication in Microsoft SQL Server Management Studio, then just change the name of the server in the conn string according to your machine's server name. 
@@ -24,3 +24,4 @@ add-migration initial
 Update-Database  
 
 After that, your tables will be ready in your database and you can seed the database. 
+The program is ready to run now.
