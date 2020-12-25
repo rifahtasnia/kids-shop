@@ -11,7 +11,7 @@ using ProductService.Database.Entities;
 
 namespace ProductService.Controllers
 {
-    [Route("api/product/updateCategory")]
+    [Route("product/updateCategory")]
     [ApiController]
     public class UpdateCategoryController : ControllerBase
     {
@@ -28,14 +28,31 @@ namespace ProductService.Controllers
         }
 
         [HttpPut("{id}")]
-        public IActionResult Update(int id, [FromBody]Product model)
+        public IActionResult Update(int id, [FromBody] Product model)
+        {
+            var myProduct = db.Products.FirstOrDefault(e => e.ProductID == id);
+            if(myProduct == null)
+            {
+                return StatusCode(StatusCodes.Status404NotFound, "Product with Id = " + id.ToString() + " not found to update");
+            }
+            else
+            {
+                myProduct.CategoryId = model.CategoryId;
+                myProduct.CategoryName = model.CategoryName;
+                //db.Products.Update(myProduct);
+                db.SaveChanges();
+                return StatusCode(StatusCodes.Status202Accepted);
+            }
+   
+        }
+        /*public IActionResult Update(int id, [FromBody]Product model)
         {
             try
             {
                 var myProduct = db.Products.FirstOrDefault(e => e.ProductID == id);
                 myProduct.CategoryId = model.CategoryId;
                 myProduct.CategoryName = model.CategoryName;
-                db.Products.Update(myProduct);
+                //db.Products.Update(myProduct);
                 db.SaveChanges();
                 return StatusCode(StatusCodes.Status202Accepted);
             }
@@ -43,7 +60,7 @@ namespace ProductService.Controllers
             {
                 return StatusCode(StatusCodes.Status404NotFound, "Product with Id = " + id.ToString() + " not found to update");
             }
-        }
+        }*/
 
     }
 }

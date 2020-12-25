@@ -10,7 +10,7 @@ using ProductService.Database;
 
 namespace ProductService.Controllers
 {
-    [Route("api/product/remove")]
+    [Route("product/remove")]
     [ApiController]
     public class RemoveProductController : ControllerBase
     {

@@ -12,7 +12,7 @@ using ProductService.Database.Entities;
 
 namespace ProductService.Controllers
 {
-    [Route("api/product/list")]
+    [Route("product/list")]
     [ApiController]
     public class ProductController : ControllerBase
     {
