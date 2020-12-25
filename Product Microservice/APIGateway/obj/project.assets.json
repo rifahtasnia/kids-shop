@@ -491,11 +491,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\3-2\\SDA\\Microservice\\kidsShopMicroservice\\kids-shop\\APIGateway\\APIGateway.csproj",
+      "projectUniqueName": "G:\\3-2\\SDA\\Microservice\\kidsShopMicroservice\\kids-shop\\Product Microservice\\APIGateway\\APIGateway.csproj",
       "projectName": "APIGateway",
-      "projectPath": "G:\\3-2\\SDA\\Microservice\\kidsShopMicroservice\\kids-shop\\APIGateway\\APIGateway.csproj",
+      "projectPath": "G:\\3-2\\SDA\\Microservice\\kidsShopMicroservice\\kids-shop\\Product Microservice\\APIGateway\\APIGateway.csproj",
       "packagesPath": "C:\\Users\\ThinkPad\\.nuget\\packages\\",
-      "outputPath": "G:\\3-2\\SDA\\Microservice\\kidsShopMicroservice\\kids-shop\\APIGateway\\obj\\",
+      "outputPath": "G:\\3-2\\SDA\\Microservice\\kidsShopMicroservice\\kids-shop\\Product Microservice\\APIGateway\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

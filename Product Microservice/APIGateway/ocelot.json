@@ -1,7 +1,7 @@
 {
   "ReRoutes": [
     {
-      "DownstreamPathTemplate": "/api/product/list",
+      "DownstreamPathTemplate": "/product/list",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {

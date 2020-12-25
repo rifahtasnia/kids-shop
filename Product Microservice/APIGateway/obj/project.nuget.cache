@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tBagsU1LDDJd3X9QGYZ9jq/hHuc+qiD/QPrbcKpT3KoRjuzz4DLgtKA88ojQWPY6rBlc0ODztyIxXP1ok0+H9g==",
+  "dgSpecHash": "CD8JEMmODCVk5ZAY2/C3Hz5K7DHHCoLSJSW7nhqxDPThiiTZ1ad73e4lkjXCPeRuTYzoxeXprsV1WKDQ0BPaoA==",
   "success": true,
-  "projectFilePath": "G:\\3-2\\SDA\\Microservice\\kidsShopMicroservice\\kids-shop\\APIGateway\\APIGateway.csproj",
+  "projectFilePath": "G:\\3-2\\SDA\\Microservice\\kidsShopMicroservice\\kids-shop\\Product Microservice\\APIGateway\\APIGateway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ThinkPad\\.nuget\\packages\\fluentvalidation\\8.5.0\\fluentvalidation.8.5.0.nupkg.sha512",
     "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.0.0\\microsoft.aspnetcore.jsonpatch.3.0.0.nupkg.sha512",
