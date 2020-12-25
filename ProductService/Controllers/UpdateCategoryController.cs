@@ -21,10 +21,10 @@ namespace ProductService.Controllers
             db = new DatabaseContext();
         }
 
-        [HttpGet]
-        public IEnumerable<Product> Get()
+        [HttpGet("{id}")]
+        public Product Get(int id)
         {
-            return db.Products.ToList();
+            return db.Products.Find(id);
         }
 
         [HttpPut("{id}")]
