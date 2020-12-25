@@ -27,7 +27,7 @@ namespace ProductService.Controllers
             return db.Products.Find(id);
         }
 
-        [HttpPost]
+        [HttpPut]
         public IActionResult Update([FromBody] Product model)
         {
             try
