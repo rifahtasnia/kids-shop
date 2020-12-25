@@ -27,40 +27,23 @@ namespace ProductService.Controllers
             return db.Products.Find(id);
         }
 
-        [HttpPut("{id}")]
-        public IActionResult Update(int id, [FromBody] Product model)
-        {
-            var myProduct = db.Products.FirstOrDefault(e => e.ProductID == id);
-            if(myProduct == null)
-            {
-                return StatusCode(StatusCodes.Status404NotFound, "Product with Id = " + id.ToString() + " not found to update");
-            }
-            else
-            {
-                myProduct.CategoryId = model.CategoryId;
-                myProduct.CategoryName = model.CategoryName;
-                //db.Products.Update(myProduct);
-                db.SaveChanges();
-                return StatusCode(StatusCodes.Status202Accepted);
-            }
-   
-        }
-        /*public IActionResult Update(int id, [FromBody]Product model)
+        [HttpPost]
+        public IActionResult Update([FromBody] Product model)
         {
             try
             {
-                var myProduct = db.Products.FirstOrDefault(e => e.ProductID == id);
+                Product myProduct = db.Products.Find(model.ProductID);
+                Category myCategory = db.Categories.Find(model.CategoryId);
                 myProduct.CategoryId = model.CategoryId;
-                myProduct.CategoryName = model.CategoryName;
-                //db.Products.Update(myProduct);
+                myProduct.CategoryName = myCategory.Name;
                 db.SaveChanges();
                 return StatusCode(StatusCodes.Status202Accepted);
             }
             catch (Exception ex)
             {
-                return StatusCode(StatusCodes.Status404NotFound, "Product with Id = " + id.ToString() + " not found to update");
+                return StatusCode(StatusCodes.Status404NotFound, ex);
             }
-        }*/
+        }
 
     }
 }

@@ -35,6 +35,29 @@ namespace ProductService.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, ex);
             }
         }
+        /*public IActionResult Post([FromBody] Product model)
+        {
+            try
+            {
+                Product myProduct = db.Products.Find(model.ProductName);
+                myProduct.ProductName = model.ProductName;
+                if(myProduct.ProductName == null)
+                {
+                    db.Products.Add(model);
+                    db.SaveChanges();
+                    return StatusCode(StatusCodes.Status201Created, model);
+                }
+                else
+                {
+                    return StatusCode(StatusCodes.Status400BadRequest, model);
+                }
+               
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex);
+            }
+        }*/
 
     }
 }
