@@ -34,6 +34,5 @@ namespace ProductService.Controllers
             return db.Products.Find(id); 
         }
 
-
     }
 }
