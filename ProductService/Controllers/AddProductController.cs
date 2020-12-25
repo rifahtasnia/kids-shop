@@ -7,33 +7,34 @@ using Microsoft.AspNetCore.Mvc;
 using ProductService.Database;
 using ProductService.Database.Entities;
 
-
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace ProductService.Controllers
 {
-    [Route("api/product/list")]
+    [Route("api/product/add")]
     [ApiController]
-    public class ProductController : ControllerBase
+    public class AddProductController : ControllerBase
     {
         DatabaseContext db;
-        public ProductController()
+        public AddProductController()
         {
             db = new DatabaseContext();
         }
 
-        [HttpGet]
-        public IEnumerable<Product> Get()
+        [HttpPost]
+        public IActionResult Post([FromBody] Product model)
         {
-            return db.Products.ToList();
+            try
+            {
+                db.Products.Add(model);
+                db.SaveChanges();
+                return StatusCode(StatusCodes.Status201Created, model);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex);
+            }
         }
-
-        [HttpGet("{id}")]
-        public Product Get(int id)
-        {
-            return db.Products.Find(id); 
-        }
-
 
     }
 }

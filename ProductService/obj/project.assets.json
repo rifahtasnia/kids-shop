@@ -5804,11 +5804,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\3-2\\SDA\\Microservice\\SimpleMicroservice\\ProductService\\ProductService.csproj",
+      "projectUniqueName": "G:\\3-2\\SDA\\Microservice\\kidsShopMicroservice\\kids-shop\\ProductService\\ProductService.csproj",
       "projectName": "ProductService",
-      "projectPath": "G:\\3-2\\SDA\\Microservice\\SimpleMicroservice\\ProductService\\ProductService.csproj",
+      "projectPath": "G:\\3-2\\SDA\\Microservice\\kidsShopMicroservice\\kids-shop\\ProductService\\ProductService.csproj",
       "packagesPath": "C:\\Users\\ThinkPad\\.nuget\\packages\\",
-      "outputPath": "G:\\3-2\\SDA\\Microservice\\SimpleMicroservice\\ProductService\\obj\\",
+      "outputPath": "G:\\3-2\\SDA\\Microservice\\kidsShopMicroservice\\kids-shop\\ProductService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

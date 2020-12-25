@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L/E/PIbkGXgV71VCQuVBrYyuhu/nxOHaJdVp+486iR+0KmigKy4znUFxK0T07S3lQgbkXjTqKNI4gPc25LfZ8w==",
+  "dgSpecHash": "OFGdU61m50sjQcOX8iKUvS4mSz6ZIj3IxMm84uxlr4vn5c61aMP4c1rOq8NSLp+I6WLsjOPNw0RAtpCOYYYLiA==",
   "success": true,
-  "projectFilePath": "G:\\3-2\\SDA\\Microservice\\SimpleMicroservice\\ProductService\\ProductService.csproj",
+  "projectFilePath": "G:\\3-2\\SDA\\Microservice\\kidsShopMicroservice\\kids-shop\\ProductService\\ProductService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ThinkPad\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ThinkPad\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
