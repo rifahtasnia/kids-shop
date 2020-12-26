@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 
 namespace ProductService.Controllers
 {
+    [Route("product/updateRating")]
+    [ApiController]
     public class UpdateAverageRatingController : Controller
     {
         DatabaseContext db;
