@@ -1,7 +1,7 @@
 # kids-shop
 Simple Microservice assignment. 
 
-Product Service:    
+# Product Service:    
 Framework, Tools and packages:  
 Visual Studio 2019 
 Microsoft SQL Server 
@@ -27,7 +27,7 @@ Update-Database
 After that, your tables will be ready in your database and you can seed the database.   
 The program is ready to run now.   
  
-Rating Service:   
+# Rating Service:   
 
 Language: node.js   
 Database: firebase  
