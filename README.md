@@ -5,13 +5,12 @@ Product Service:
 Framework, Tools and packages:  
 Visual Studio 2019 
 Microsoft SQL Server 
-.NET core (v3.1)   
+ASP.NET core (v5.0)   
  
 NuGet Packages : 
 - Microsoft.EntityFrameworkCore (v5.0.1) 
 - Microsoft.EntityFrameworkCore.SqlServer (v5.0.1)   
 - Microsoft.EntityFrameworkCore.Tools (v5.0.1)  
-- Ocelot (v13.8.5)  [For the APIGateway] 
 
 For running the service, at first made changes in the connection string in DatabaseContext.cs file which is inside the Database folder.   
 - If you use Windows authentication in Microsoft SQL Server Management Studio, then just change the name of the server in the conn string according to your machine's server name. 

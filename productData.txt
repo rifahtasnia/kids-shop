@@ -1,0 +1,56 @@
+{
+    "productName": "ball",
+    "categoryId": 1,
+    "categoryName": "toys",
+    "averageRating": 0,
+    "numberOfRaters": 0
+}
+{
+    "productName": "doll",
+    "categoryId": 1,
+    "categoryName": "toys",
+    "averageRating": 0,
+    "numberOfRaters": 0
+}
+{
+    "productName": "car",
+    "categoryId": 1,
+    "categoryName": "toys",
+    "averageRating": 0,
+    "numberOfRaters": 0
+}
+{
+    "productName": "tshirt",
+    "categoryId": 2,
+    "categoryName": "cloths",
+    "averageRating": 0,
+    "numberOfRaters": 0
+}
+{
+    "productName": "pant",
+    "categoryId": 2,
+    "categoryName": "cloths",
+    "averageRating": 0,
+    "numberOfRaters": 0
+}
+{
+    "productName": "shirt",
+    "categoryId": 2,
+    "categoryName": "cloths",
+    "averageRating": 0,
+    "numberOfRaters": 0
+}
+{
+    "productName": "nido",
+    "categoryId": 3,
+    "categoryName": "food",
+    "averageRating": 0,
+    "numberOfRaters": 0
+}
+{
+    "productName": "cerelac",
+    "categoryId": 3,
+    "categoryName": "food",
+    "averageRating": 0,
+    "numberOfRaters": 0
+}
