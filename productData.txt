@@ -1,3 +1,9 @@
+insert into Categories (Name) values
+    ('toys'),
+    ('cloths'),
+    ('food');
+
+
 {
     "productName": "ball",
     "categoryId": 1,
