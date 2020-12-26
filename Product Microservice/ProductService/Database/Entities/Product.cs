@@ -7,7 +7,7 @@ namespace ProductService.Database.Entities
 {
     public class Product
     {
-        public int ProductID { get; set; }
+        public Guid ProductID { get; set; }
         public string ProductName { get; set; }
         public int CategoryId { get; set; }
         public string CategoryName { get; set; }
