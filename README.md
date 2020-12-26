@@ -21,16 +21,16 @@ Create a Database named "KidsShop" in your Database.
 Delete the Migrations folder from "ProductMicroservice\ProductService".
 
 In Visual Studio, run the Package manager console. Run these following commands one by one.  
-add-migration initial  
-Update-Database  
+> add-migration initial  
+> Update-Database  
 
 After that, your tables will be ready in your database and you can seed the database.   
 The program is ready to run now.   
  
 # Rating Service:   
 
-Language: node.js   
-Database: firebase  
+- Language: node.js   
+- Database: firebase  
 
 Firebase setup:    
 Create a project and a firestore database. Then go to project settings -> register a web app.   
